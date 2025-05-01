@@ -39,8 +39,9 @@ const News = ({ country = "us" }) => {
         } else {
           setError("Failed to fetch news.");
         }
-      } catch (err) {
-        setError("Error fetching data.");
+      } catch (error) {
+        console.error("Fetch news error:", error);
+        setError("Error fetching data: " + error.message);
       } finally {
         setLoading(false);
       }
