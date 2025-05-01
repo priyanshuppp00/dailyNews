@@ -11,7 +11,13 @@ This is a React-based news application built with Vite. It fetches news articles
 - Infinite scroll to load more news articles
 - Dark mode toggle support
 
+![Screenshot 2025-05-01 200357](https://github.com/user-attachments/assets/09cec17f-dbf1-44c9-895a-8b6bb0e45596)
+
+![Screenshot 2025-05-01 200409](https://github.com/user-attachments/assets/a4586401-f3da-45c4-8430-c7f1b2b227a4)
+
 ## Scripts
+
+
 
 - `npm run dev` - Start the development server with hot module replacement
 - `npm run build` - Build the project for production (outputs to `dist` folder)
